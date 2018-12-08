@@ -34,3 +34,34 @@
     bottom: 30px;
 }
 
+@media (max-width: 767.98px) {
+    .day {
+        width: 50%;
+        margin: 0px auto;
+        font-size: 1.5em;
+        position: relative;
+        bottom: 60px;
+        text-align: center;
+    }
+
+    .num-date {
+        font-size: 6em;
+        width: 50%;
+        margin: 0 auto;
+        font-weight: 700;
+        text-align: center;
+    }
+    .calendar-left{
+        overflow: hidden;
+        background-color: #2f89fc;
+        color: white;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #2f89fc;
+        position: relative;
+        z-index: -1;
+        margin-top: 15px;
+    }
+    .know{
+        margin-top: 6px;
+    }
+}
