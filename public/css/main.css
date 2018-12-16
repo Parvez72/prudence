@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -14,27 +14,27 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Light;
-  src: url('../fonts/Poppins/Poppins-Light.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Light.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: PlayfairDisplay-Regular;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf'); 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
 }
 
 @font-face {
   font-family: PlayfairDisplay-Italic;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf'); 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf');
 }
 
 
@@ -303,7 +303,7 @@ input.input100 {
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 20px 5px 0px 5px;
@@ -311,7 +311,7 @@ input.input100 {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #fff;}
 .placeholder0:-moz-placeholder { color: #fff;}
@@ -507,7 +507,7 @@ input.input100 {
   .w-full-sm {width: 100%;}
 
   /*---------------------------------------------*/
-  
+
 }
 
 
@@ -534,3 +534,5 @@ input.input100 {
   /*---------------------------------------------*/
 
 }
+
+

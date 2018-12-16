@@ -17,4 +17,8 @@ router.get('/contact-us', function (req, res, next) {
     res.render('contactUs');
 });
 
+router.post('/submit-form', function (req, res, next) {
+   res.send('true');
+});
+
 module.exports = router;

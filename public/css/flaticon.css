@@ -23,7 +23,7 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
   font-style: normal;
   font-weight: normal;
@@ -39,3 +39,6 @@
 .flaticon-research:before { content: "\f100"; }
 .flaticon-creativity:before { content: "\f101"; }
 .flaticon-market:before { content: "\f102"; }
+.flaticon-001-chart:before {content: "\e001";}
+.flaticon-002-money:before {content: "\e002";}
+.flaticon-003-network:before {content: "\e003";}

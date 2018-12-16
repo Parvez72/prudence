@@ -1,0 +1,32 @@
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 16/09/2018 01:40
+  */
+
+@font-face {
+	font-family: "Flaticon";
+	src: url("./Flaticon.eot");
+	src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+	url("./Flaticon.woff") format("woff"),
+	url("./Flaticon.ttf") format("truetype"),
+	url("./Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../Flaticon.svg#Flaticon") format("svg");
+	}
+}
+
+.flaticon-001-chart:before {
+	content: "\e001";
+}
+.flaticon-002-money:before {
+	content: "\e002";
+}
+.flaticon-003-network:before {
+	content: "\e003";
+}

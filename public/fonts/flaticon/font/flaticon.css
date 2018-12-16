@@ -22,7 +22,7 @@
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
   font-family: Flaticon;
         font-size: 20px;
 font-style: normal;
@@ -32,3 +32,4 @@ margin-left: 20px;
 .flaticon-research:before { content: "\f100"; }
 .flaticon-creativity:before { content: "\f101"; }
 .flaticon-market:before { content: "\f102"; }
+
