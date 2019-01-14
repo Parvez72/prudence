@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f4b4611-9e12-4bd8-b179-e6476b937814" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/accounting.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/auditing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/consultancy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/finance.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/outsourcing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/services.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vatTax.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,14 +27,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="321" column="119" selection-start-line="321" selection-start-column="119" selection-end-line="321" selection-end-column="119" />
+            <state relative-caret-position="251">
+              <caret line="43" column="44" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -327,15 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544989998346</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes in modal images in index file">
+      <created>1547490858835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547490858835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37942000" />
+    <option name="totallyTimeSpent" value="38182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -384,7 +382,8 @@
   <component name="VcsManagerConfiguration">
     <option name="LIMIT_HISTORY" value="false" />
     <MESSAGE value="Changes add index file for demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes add index file for demo" />
+    <MESSAGE value="changes in modal images in index file" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in modal images in index file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css" />
@@ -596,14 +595,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="321" column="119" selection-start-line="321" selection-start-column="119" selection-end-line="321" selection-end-column="119" />
+        <state relative-caret-position="251">
+          <caret line="43" column="44" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#4;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#5;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
