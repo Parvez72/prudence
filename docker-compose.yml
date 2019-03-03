@@ -1,0 +1,32 @@
+version : "3.7"
+
+networks:
+  prudence:
+
+services:
+  portainer:
+    image: portainer/portainer
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+  node-app:
+    image : parvezyellow/prudence
+    ports:
+      - "3000:3000"
+    networks:
+      - prudence
+
+  nginx:
+    image: parvezyellow/prudence-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - prudence
+    volumes:
+      - /etc/letsencrypt:/etc/letsencrypt/
+volumes:
+  portainer_data:
+
