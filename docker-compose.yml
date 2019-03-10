@@ -27,6 +27,15 @@ services:
       - prudence
     volumes:
       - /etc/letsencrypt:/etc/letsencrypt/
+  jenkins:
+    image: parvezyellow/jenkins
+    user: root
+    ports:
+      - "3006:8080"
+      - "3007:50000"
+    volumes:
+      - ~/jenkins:/var/jenkins_home #Remember that, the tmp directory is designed to be wiped on system reboot.
+      - /var/run/docker.sock:/var/run/docker.sock
 volumes:
   portainer_data:
 
