@@ -1,0 +1,33 @@
+pipeline {
+    environment{
+        registry = "parvezyellow/prudence"
+        registryCredential = "dockercreds"
+        dockerImage = ""
+    }
+    agent any 
+    stages {
+        stage('Cloning prudence') {
+            steps {
+                echo 'Cloning the script'
+                git 'https://github.com/Parvez72/prudence.git'
+            }
+        }
+        stage('Docker image build'){
+            steps{
+               sh "docker build -t parvezyellow/prudence:$BUILD_NUMBER -f Dockerfile ."   
+            }
+        }
+        stage('Docker push image'){
+            steps{
+                withDockerRegistry([ credentialsId: "dockercreds", url: "" ]) {
+                    sh "docker push parvezyellow/prudence:$BUILD_NUMBER"
+                }
+            }
+        }
+        stage('Update the service'){
+            steps{
+                sh 'docker service update --image parvezyellow/prudence:$BUILD_NUMBER local_prudence'
+            }
+        }
+    }
+}
