@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -80,15 +81,15 @@
         </div>
         <div class="row block-9">
             <div class="col-md-6 pr-md-5" id="formbody">
-                <form>
+                <form name="contactForm" id="contactForm">
                     <div class="form-group">
-                        <input type="text" id="username" class="form-control" placeholder="Your Name" required>
+                        <input type="text" name="username" id="username" class="form-control" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+                        <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
                     </div>
                     <div class="form-group">
                         <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
@@ -169,31 +170,19 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="#">
+                <form action="" id="modalForm">
                     <div class="form-group">
                         <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
-                        <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
+                        <input type="text" class="form-control" id="appointment_name" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
                         <!-- <label for="appointment_email" class="text-black">Email</label> -->
-                        <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+                        <input type="email" class="form-control" id="appointment_email" placeholder="Email" required>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- <label for="appointment_date" class="text-black">Date</label> -->
-                                <input type="text" class="form-control" id="appointment_date" placeholder="Date">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- <label for="appointment_time" class="text-black">Time</label> -->
-                                <input type="text" class="form-control" id="appointment_time" placeholder="Time">
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <!-- <label for="appointment_date" class="text-black">Date</label> -->
+                        <input type="text" class="form-control" id="appointment_phone_number" placeholder="Phone Number" required>
                     </div>
-
-
                     <div class="form-group">
                         <!-- <label for="appointment_message" class="text-black">Message</label> -->
                         <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
@@ -204,6 +193,25 @@
                 </form>
             </div>
 
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="submitted" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Submitted</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="sendmail-failed"><i class="far fa-check-circle" style="color: #1e7e34;"></i> Your details have been submitted successfully.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="modal-close-button" class="btn btn-danger" data-dismiss="modal" style="border-radius: 7px">Close</button>
+            </div>
         </div>
     </div>
 </div>
@@ -225,9 +233,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhz3Z7B51E-4hOktjLi17-t95mOSgGfU4&sensor=false"></script>
 <script src="js/google-map.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
 <script src="js/main.js"></script>
 <script src="js/submitform.js"></script>
-
-
 </body>
 </html>
